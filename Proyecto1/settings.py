@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-&$++lvb4)-c^2id-wuzm_*$kyux4xi7*##p75rv(g-^&rrcvp@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'paginainteractiva.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
+
 
 
 # Application definition
